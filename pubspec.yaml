@@ -1,0 +1,38 @@
+name: flutter_alarm_clock
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+
+  #pub.dev packages
+  sqflite: ^2.0.2+1
+  flutter_local_notifications: ^9.5.3+1
+  dotted_border: ^2.0.0+2
+  provider: ^6.0.3
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+    - family: avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Book.ttf
+        - asset: assets/fonts/Avenir-Heavy.ttf
+          weight: 700
+        - asset: assets/fonts/Avenir-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Avenir-Light.ttf
+          weight: 300
